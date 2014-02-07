@@ -1,0 +1,17 @@
+Lage en SSH-nøkkel: (fra https://help.github.com/articles/generating-ssh-keys )
+
+1.
+cd ~/.ssh
+ls
+
+Hvis det da er en id_rsa.pub i mappa, er nøkkelen allerede generert, hopp til pkt 3. Hvis ikke:
+
+2.
+ssh-keygen -t rsa -C "your_email@example.com"
+... Bruk her navnet id_rsa
+ssh-add id_rsa
+...
+
+Åpne id_rsa.pub i en editor og kopier alt sammen. Den deles med det stedet som SSH'en skal kobles til.
+
+

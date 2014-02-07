@@ -1,0 +1,9 @@
+git remote show origin
+--> Viser hvilken remote dette repoet er koblet opp til
+
+git remote rm origin
+--> Fjerner koblingen til remote
+
+git remote add origin <adresse, SSH eller HTTPS, fra remote-repo'et>
+--> Lager ny remote-kobling
+
